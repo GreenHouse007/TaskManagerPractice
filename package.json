@@ -1,0 +1,30 @@
+{
+  "name": "taskmanagerpractice",
+  "version": "1.0.0",
+  "description": "Practice using Node.js and Epress to set up a task manager web app.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GreenHouse007/TaskManagerPractice.git"
+  },
+  "keywords": [],
+  "author": "Alexander Green",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GreenHouse007/TaskManagerPractice/issues"
+  },
+  "homepage": "https://github.com/GreenHouse007/TaskManagerPractice#readme",
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "mongoose": "^8.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
